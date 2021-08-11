@@ -29,7 +29,7 @@ public class ModBlocks {
     //public static final Block CECILIA = new PlantBlock();
 
     /**
-     * Cubert is a cube friend
+     * Cubert is a wooden cube friend
      */
     public static final Block CUBERT = new Block(
         FabricBlockSettings
@@ -38,7 +38,7 @@ public class ModBlocks {
             .breakByTool(FabricToolTags.AXES, 3)
             .requiresTool()
             .strength(50.0f, 500.0f)
-            .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+            .sounds(BlockSoundGroup.WOOD)
     );
 
     /**
