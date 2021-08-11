@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  g",
+    " D ",
+    "g  "
+  ],
+  "key": {
+    "g": {
+      "item": "honkai:honkai_cube"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "honkai:void_spear",
+    "count": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "honkai",
+  "version": "${version}",
+
+  "name": "Honkai Fabric",
+  "description": "First project, aiming to add Honkai Impact 3rd Weapons.",
+  "authors": [
+    "JoshWannaPaas"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/honkai/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.jwp.honkai.Honkai"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
