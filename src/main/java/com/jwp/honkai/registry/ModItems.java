@@ -18,6 +18,7 @@ public class ModItems {
     //Blocks
     public static final BlockItem HONKAI_CUBE_BLOCK = new BlockItem(ModBlocks.HONKAI_CUBE_BLOCK, new Item.Settings().group(Honkai.ITEM_GROUP));
     public static final BlockItem CUBERT = new BlockItem(ModBlocks.CUBERT, new Item.Settings().group(Honkai.ITEM_GROUP));
+    public static final BlockItem CECILIA = new BlockItem(ModBlocks.CECILIA, new Item.Settings().group(Honkai.ITEM_GROUP));
 
 
     public static void registerItems(){
@@ -25,5 +26,6 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Honkai.MOD_ID, "void_spear"), VOID_SPEAR);
         Registry.register(Registry.ITEM, new Identifier(Honkai.MOD_ID, "honkai_cube_block"), HONKAI_CUBE_BLOCK);
         Registry.register(Registry.ITEM, new Identifier(Honkai.MOD_ID, "cubert"), CUBERT);
+        Registry.register(Registry.ITEM, new Identifier(Honkai.MOD_ID, "cecilia"), CECILIA);
     }
 }

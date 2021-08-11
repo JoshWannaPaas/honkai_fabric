@@ -1,12 +1,12 @@
 package com.jwp.honkai.registry;
 
 import com.jwp.honkai.Honkai;
+import com.jwp.honkai.items.Cecilia;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
-import net.minecraft.block.Block;
-import net.minecraft.block.FlowerBlock;
-import net.minecraft.block.Material;
-import net.minecraft.block.PlantBlock;
+import net.minecraft.block.*;
+import net.minecraft.entity.effect.StatusEffect;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -26,7 +26,7 @@ public class ModBlocks {
             .sounds(BlockSoundGroup.AMETHYST_BLOCK)
     );
 
-    //public static final Block CECILIA = new PlantBlock();
+    public static final Cecilia CECILIA = new Cecilia();
 
     /**
      * Cubert is a wooden cube friend
@@ -47,6 +47,7 @@ public class ModBlocks {
     public static void registerBlocks() {
         Registry.register(Registry.BLOCK, new Identifier(Honkai.MOD_ID, "honkai_cube_block"), HONKAI_CUBE_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(Honkai.MOD_ID, "cubert"), CUBERT);
+        Registry.register(Registry.BLOCK, new Identifier(Honkai.MOD_ID, "cecilia"), CECILIA);
     }
 }
 

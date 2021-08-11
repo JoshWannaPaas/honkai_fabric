@@ -3,7 +3,9 @@ package com.jwp.honkai;
 import com.jwp.honkai.registry.ModBlocks;
 import com.jwp.honkai.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.minecraft.client.render.RenderLayer;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
@@ -20,5 +22,6 @@ public class Honkai implements ModInitializer {
     public void onInitialize() {
         ModItems.registerItems();
         ModBlocks.registerBlocks();
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CECILIA, RenderLayer.getCutout());
     }
 }
