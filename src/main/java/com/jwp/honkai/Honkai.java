@@ -10,10 +10,10 @@ import net.minecraft.util.Identifier;
 
 public class Honkai implements ModInitializer {
 
-    //QoL Variable
+    // QoL Variable
     public static final String MOD_ID = "honkai";
 
-    //Creative Menu Tab
+    // Creative Menu Tab
     public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "general"), () -> new ItemStack(ModItems.HONKAI_CUBE));
 
     @Override
