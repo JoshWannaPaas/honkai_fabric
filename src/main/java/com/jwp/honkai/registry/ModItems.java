@@ -1,7 +1,7 @@
 package com.jwp.honkai.registry;
 
 import com.jwp.honkai.Honkai;
-import com.jwp.honkai.items.HonkaiToolMaterial;
+import com.jwp.honkai.toolmaterials.HonkaiCubeToolMaterial;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.SwordItem;
@@ -12,7 +12,7 @@ public class ModItems {
 
     //Items
     public static final Item HONKAI_CUBE = new Item(new Item.Settings().group(Honkai.ITEM_GROUP));
-    public static final SwordItem VOID_SPEAR = new SwordItem(HonkaiToolMaterial.INSTANCE, 15, -1.0f, new Item.Settings().group(Honkai.ITEM_GROUP));
+    public static final SwordItem VOID_SPEAR = new SwordItem(HonkaiCubeToolMaterial.INSTANCE, 15, -1.0f, new Item.Settings().group(Honkai.ITEM_GROUP));
 
 
     //Blocks

@@ -1,12 +1,12 @@
-package com.jwp.honkai.items;
+package com.jwp.honkai.toolmaterials;
 
 import com.jwp.honkai.registry.ModItems;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class HonkaiToolMaterial implements ToolMaterial {
+public class HonkaiCubeToolMaterial implements ToolMaterial {
 
-    public static final HonkaiToolMaterial INSTANCE = new HonkaiToolMaterial();
+    public static final HonkaiCubeToolMaterial INSTANCE = new HonkaiCubeToolMaterial();
 
     @Override
     public int getDurability() {

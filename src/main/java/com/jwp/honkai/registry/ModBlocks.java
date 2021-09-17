@@ -1,11 +1,9 @@
 package com.jwp.honkai.registry;
 
 import com.jwp.honkai.Honkai;
-import com.jwp.honkai.items.Cecilia;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.*;
-import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
@@ -26,7 +24,9 @@ public class ModBlocks {
             .sounds(BlockSoundGroup.AMETHYST_BLOCK)
     );
 
-    public static final Cecilia CECILIA = new Cecilia();
+    //public static final Cecilia CECILIA = new Cecilia();
+    public static final FlowerBlock CECILIA = new FlowerBlock(StatusEffects.LEVITATION, 5, AbstractBlock.Settings.of(Material.PLANT).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).nonOpaque());
+
 
     /**
      * Cubert is a wooden cube friend
