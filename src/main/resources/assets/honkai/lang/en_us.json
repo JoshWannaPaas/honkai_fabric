@@ -4,5 +4,10 @@
   "block.honkai.honkai_cube_block": "Honkai Cube Block",
   "itemGroup.honkai.general": "Honkai for Fabric",
   "block.honkai.cubert": "Cubert",
-  "block.honkai.cecilia": "Cecilia"
+  "block.honkai.cecilia": "Cecilia",
+  "effect.honkai.cascade": "Cascade",
+  "death.attack.cascading": "%1$s succumbed to Honkai Cascading",
+  "death.attack.honkai.cascading": "%1$s succumbed to Honkai Cascading",
+  "death.attack.cascading.player": "%1$s succumbed to Honkai Cascading whilst trying to escape from %2$s",
+  "death.attack.honkai.cascading.player": "%1$s succumbed to Honkai Cascading whilst trying to escape from %2$s"
 }
